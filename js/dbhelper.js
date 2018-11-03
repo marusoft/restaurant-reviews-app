@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     // const port = 8000 // Change this to your server port
-    return `marusoft.github.io/restaurant-reviews-apps/data/restaurants.json`;
+    return `https://marusoft.github.io/restaurant-reviews-apps/data/restaurants.json`;
   }
 
   /**
