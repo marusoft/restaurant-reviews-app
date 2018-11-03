@@ -1,0 +1,62 @@
+/* for medium devices with minimum width 0f 600px */
+@media screen and (min-width: 600px) {
+
+  /* navigation */
+  nav h1 a {
+      letter-spacing: 10px;
+  }
+
+  /* restaurant filtering */
+  .filter-options {
+      padding-top: 5px;
+  }
+
+  .filter-options h2 {
+      display: inline-block;
+      margin-right: 10px;
+  }
+
+  .filter-options select {
+      width: 200px;
+      display: inline-block;
+  }
+
+  /* restaurant listing */
+  #restaurants-list li {
+      width: calc(50% - 26px);
+      max-width: 350px;
+      padding: 25px;
+  }
+
+  /* restaurant details */
+  .inside #map-container {
+      height: calc(100vh - 100px);
+      max-height: none;
+      position: fixed;
+      width: calc(100vw - 350px);
+      margin: 0;
+      left: 350px;
+      top: 100px;
+  }
+
+  #restaurant-container,
+  #reviews-container {
+      width: 350px;
+      box-sizing: border-box;
+      padding: 15px 15px 0px;
+  }
+
+  #reviews-container {
+      padding-bottom: 5px;
+  }
+
+  #restaurant-container {
+      margin-top: 100px
+  }
+
+  .inside #footer {
+      padding: 20px;
+      width: 370px;
+      box-sizing: border-box;
+  }
+}
