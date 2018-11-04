@@ -55,12 +55,12 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 ## Installation
 
 ```
-$ git clone https://github.com/marusoft/restaurant-reviews-apps.git
+git clone https://github.com/marusoft/restaurant-reviews-apps.git
 
 ```
 
 ```
-$ cd restaurant-reviews-apps
+cd restaurant-reviews-apps
 
 ```
 
@@ -70,14 +70,14 @@ In a terminal, check the version of Python you have:
 
 
 ```
-$ python -V
+python -V
 
 ```
 
 If you have Python 2.x, 
 
 ```
-$ python -m SimpleHTTPServer 8000
+python -m SimpleHTTPServer 8000
 
 ```
 
@@ -86,7 +86,7 @@ $ python -m SimpleHTTPServer 8000
 For Python 3.x,
 
 ```
-$ python3 -m http.server 8000
+python3 -m http.server 8000
 
 ```
 
