@@ -33,12 +33,28 @@ self.addEventListener('install', function (e) {
     );
 });
 
-self.addEventListener('fetch', function(event) {
-  console.log(event.request.url);
- 
-  event.respondWith(
-    caches.match(event.request).then(function(response) {
-      return response || fetch(event.request);
-    })
-  );
- });
+/** At Service Worker Activation, Delete previous caches, if any */
+self.addEventListener('activate', (event) => {
+    event.waitUntil(
+        caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames.filter((cacheName) => {
+                    return cacheName.startsWith('restaurant') &&
+                        cacheName != staticCacheName;
+                }).map((cacheName) => {
+                    return caches.delete(cacheName);
+                })
+            );
+        })
+    );
+});
+
+self.addEventListener('fetch', (event) => {
+    console.log(event.request.url);
+
+    event.respondWith(
+        caches.match(event.request).then((response) => {
+            return response || fetch(event.request);
+        })
+    );
+});
