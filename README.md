@@ -97,7 +97,7 @@ If you don't have Python installed, [Download and Install Python](https://www.py
 `http://localhost:8000`
 
 
-## App link
+## View the App 
 
 [Load](https://marusoft.github.io/restaurant-reviews-apps/)
 
