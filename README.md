@@ -52,6 +52,9 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 **Adding a Service Worker and Offline into your Web App by**
 [Paul Kinlan](https://developers.google.com/web/fundamentals/codelabs/offline/)
 
+**Service Workers: an Introduction**
+[Matt Gaunt](https://developers.google.com/web/fundamentals/primers/service-workers/)
+
 ## Installation
 
 ```
