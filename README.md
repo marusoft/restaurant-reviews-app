@@ -49,7 +49,7 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 **Mobile Web Specialist-walkthrough**
 [MWS](https://alexandroperez.github.io/mws-walkthrough/)
 
-**Adding a Service Worker and Offline into your Web App**
+**Adding a Service Worker and Offline into your Web App by**
 [Paul Kinlan](https://developers.google.com/web/fundamentals/codelabs/offline/)
 
 ## Installation
