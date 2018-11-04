@@ -49,15 +49,18 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 **Mobile Web Specialist-walkthrough**
 [MWS](https://alexandroperez.github.io/mws-walkthrough/)
 
+**Adding a Service Worker and Offline into your Web App**
+[Paul Kinlan](https://developers.google.com/web/fundamentals/codelabs/offline/)
+
 ## Installation
 
 ```
-$ git clone https://github.com/marusoft/fend-restaurant-review-app.git
+$ git clone https://github.com/marusoft/restaurant-reviews-apps.git
 
 ```
 
 ```
-$ cd fend-restaurant-review-app
+$ cd restaurant-reviews-apps
 
 ```
 
