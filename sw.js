@@ -1,10 +1,10 @@
-var staticCacheName = 'restaurant-reviews-app';
+var staticCacheName = 'restaurant-reviews-apps';
 
 // The install event listener opens the caches object 
 // and then populates it with the list of resources that we want to cache.
 self.addEventListener('install', function (e) {
     e.waitUntil(
-        caches.open('airhorner').then(function (cache) {
+        caches.open('staticCacheName').then(function (cache) {
             return cache.addAll([
                 '/',
                 '/index.html',
