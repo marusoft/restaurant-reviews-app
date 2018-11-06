@@ -12,7 +12,7 @@
 * Offline Availability
 * Dependencies
 * Installation
-* App link
+* View App
 * Author
 
 ## Restaurant Reviews App Overview
@@ -100,9 +100,9 @@ If you don't have Python installed, [Download and Install Python](https://www.py
 `http://localhost:8000`
 
 
-## View the App 
+## View App 
 
-[Load](https://marusoft.github.io/restaurant-reviews-apps/)
+[Load](https://marusoft.github.io/restaurant-reviews-app/)
 
 ## Author
 
