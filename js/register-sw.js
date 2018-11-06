@@ -12,7 +12,7 @@
   if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
           navigator.serviceWorker
-          .register('/restaurant-reviews-apps/sw.js')
+          .register('/sw.js')
           .then((res) => {
               console.log(res);
               console.log("Service Worker has been Registered");
