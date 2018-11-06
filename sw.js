@@ -1,10 +1,11 @@
-var staticCacheName = 'restaurant-reviews-apps';
+var staticCacheName = 'restaurant-reviews-apps-v1';
 
 // The install event listener opens the caches object 
 // and then populates it with the list of resources that we want to cache.
-self.addEventListener('install', function (e) {
+self.addEventListener('install', function(e) {
     e.waitUntil(
-        caches.open('staticCacheName').then(function (cache) {
+        caches.open('staticCacheName')
+        .then(function (cache) {
             return cache.addAll([
                 '/',
                 '/index.html',
@@ -27,9 +28,10 @@ self.addEventListener('install', function (e) {
                 '/img/9.jpg',
                 '/img/10.jpg',
                 'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
-                'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
+                'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css'
             ]);
-        }).then(console.log('Cache is sucessful!'))
+        })
+        .then(console.log('Cache is sucessful!'))
     );
 });
 
