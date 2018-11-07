@@ -1,4 +1,4 @@
-var staticCacheName = 'restaurant-reviews-app-v7';
+var staticCacheName = 'restaurant-reviews-app-v8';
 
 // The install event listener opens the caches object 
 // and then populates it with the list of resources that we want to cache.
